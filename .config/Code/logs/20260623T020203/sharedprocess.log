@@ -1,0 +1,3 @@
+[2026-06-23 02:02:07.592] [sharedprocess] [info] main {"machineId":"fbcab95f725a3076379598119a8f78a5e6056acc3cb249ca619b551fcd15d1fa","windowId":2}
+[2026-06-23 02:02:07.678] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/devasc/.config/Code/User/snippets'
+[2026-06-23 02:02:47.613] [sharedprocess] [info] Starting to clean up unused language packs.

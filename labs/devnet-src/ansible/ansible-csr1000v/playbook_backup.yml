@@ -1,0 +1,17 @@
+---
+- name: Generar respaldo de la configuración del router
+  hosts: CSR1kV
+  gather_facts: false
+  connection: local
+
+  tasks:
+    - name: Ejecutar show running-config en el CSR1000v
+      ios_command:
+        commands: show running-config
+      register: router_config
+
+    - name: Guardar la configuración en un archivo local en DEVASC
+      ansible.builtin.copy:
+        content: "{{ router_config.stdout[0] }}"
+        dest: "./backup_csr1000v.cfg"
+      delegate_to: localhost

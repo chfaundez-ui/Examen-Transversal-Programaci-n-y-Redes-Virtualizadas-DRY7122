@@ -1,0 +1,2 @@
+[webservers]
+192.0.2.3 ansible_user=devasc ansible_password=Cisco123! ansible_become_password=Cisco123!
