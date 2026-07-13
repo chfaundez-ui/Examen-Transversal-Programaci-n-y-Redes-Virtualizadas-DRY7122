@@ -1,6 +1,0 @@
-classify-client.services.mozilla.com:HSTS	1	20646	1815371136719,1,0,2
-www.mozilla.org:HSTS	0	20627	1813727437030,1,0,2
-incoming.telemetry.mozilla.org:HSTS	1	20646	1815371106770,1,0,2
-shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	20627	1813727439069,1,1,2
-accounts.firefox.com:HSTS	0	20627	1813727438117,1,1,2
-aus5.mozilla.org:HSTS	0	20627	1813727468353,1,0,2
